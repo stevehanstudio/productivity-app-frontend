@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .gr-icon path {
+    stroke: currentColor;
+  }
+
+  svg path {
+    stroke: currentColor;
+  }
+
+}
